@@ -1,13 +1,13 @@
 {
-  "name": "hubot",
-  "version": "0.0.0-development",
+  "name": "hubot-promises",
+  "version": "3.3.2-async",
   "standard": {
      "env": [ "mocha" ]
   },
   "publishConfig": {
     "tag": "next"
   },
-  "author": "hubot",
+  "author": "pbuckleyofnpm",
   "keywords": [
     "github",
     "hubot",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hubotio/hubot.git"
+    "url": "https://github.com/dx-pbuckley/hubot.git"
   },
   "dependencies": {
     "async": ">=0.1.0 <1.0.0",
