@@ -1,6 +1,6 @@
 {
   "name": "hubot-promises",
-  "version": "3.3.2-async",
+  "version": "3.3.2-async-2",
   "standard": {
      "env": [ "mocha" ]
   },

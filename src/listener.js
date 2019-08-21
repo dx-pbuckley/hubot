@@ -73,10 +73,10 @@ class Listener {
 
       // special middleware-like function that always executes the Listener's
       // callback and calls done (never calls 'next')
-      const executeListener = (context, done) => {
+      const executeListener = async (context, done) => {
         this.robot.logger.debug(`Executing listener callback for Message '${message}'`)
         try {
-          this.callback(context.response)
+          await this.callback(context.response)
         } catch (err) {
           this.robot.emit('error', err, context.response)
         }
